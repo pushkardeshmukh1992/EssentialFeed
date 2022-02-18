@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DF7C9CF2-667F-4689-9596-E48EC98C2BCF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFF56A57-E10D-450C-8751-3FBA2D424E6F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EssentialFeedTests/RemoteFeedLoaderTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "test_load_doesNotDeliverResultAfterSUTInstanceHasBeenDeallocated()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DFF56A57-E10D-450C-8751-3FBA2D424E6F - b3f88ce57194ba81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (EssentialFeed.RemoteFeedLoader.Result) -&gt; () in EssentialFeedTests.RemoteFeedLoaderTests.test_load_doesNotDeliverResultAfterSUTInstanceHasBeenDeallocated() -&gt; ()"
+                  moduleName = "EssentialFeedTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/iOS_Projects/Essential%20Developer/EssentialFeed/EssentialFeedTests/RemoteFeedLoaderTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "63">
+               </Location>
+               <Location
+                  uuid = "DFF56A57-E10D-450C-8751-3FBA2D424E6F - b3f88ce57194ba81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (EssentialFeed.RemoteFeedLoader.Result) -&gt; () in EssentialFeedTests.RemoteFeedLoaderTests.test_load_doesNotDeliverResultAfterSUTInstanceHasBeenDeallocated() -&gt; ()"
+                  moduleName = "EssentialFeedTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/iOS_Projects/Essential%20Developer/EssentialFeed/EssentialFeedTests/RemoteFeedLoaderTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "86">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67F6801D-CBB4-43FF-88BB-25792B4AFCFC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EssentialFeedTests/RemoteFeedLoaderTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "test_load_doesNotDeliverResultAfterSUTInstanceHasBeenDeallocated()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "67F6801D-CBB4-43FF-88BB-25792B4AFCFC - b3f88ce57194bb60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (EssentialFeed.RemoteFeedLoader.Result) -&gt; () in EssentialFeedTests.RemoteFeedLoaderTests.test_load_doesNotDeliverResultAfterSUTInstanceHasBeenDeallocated() -&gt; ()"
+                  moduleName = "EssentialFeedTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/iOS_Projects/Essential%20Developer/EssentialFeed/EssentialFeedTests/RemoteFeedLoaderTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "67F6801D-CBB4-43FF-88BB-25792B4AFCFC - b3f88ce57194bb47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (EssentialFeed.RemoteFeedLoader.Result) -&gt; () in EssentialFeedTests.RemoteFeedLoaderTests.test_load_doesNotDeliverResultAfterSUTInstanceHasBeenDeallocated() -&gt; ()"
+                  moduleName = "EssentialFeedTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/iOS_Projects/Essential%20Developer/EssentialFeed/EssentialFeedTests/RemoteFeedLoaderTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "433">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
