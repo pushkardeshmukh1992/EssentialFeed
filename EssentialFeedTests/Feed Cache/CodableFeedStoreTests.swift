@@ -72,6 +72,12 @@ class CodableFeedStoreTests: XCTestCase {
         try? FileManager.default.removeItem(at: testSpecificStoreURL())
     }
     
+    override func tearDown() {
+        super.tearDown()
+        
+        try? FileManager.default.removeItem(at: testSpecificStoreURL())
+    }
+    
     func test_retrieve_deliversEmptyOnEmptyCache() {
         let sut = makeSUT()
         let exp = expectation(description: "Wait for cache retrieval")
