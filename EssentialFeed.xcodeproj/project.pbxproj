@@ -37,6 +37,7 @@
 		84EAA62D27D7BE6C006873CC /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EAA62C27D7BE6C006873CC /* LocalFeedLoader.swift */; };
 		84EAA62F27D7BF13006873CC /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EAA62E27D7BF13006873CC /* FeedStore.swift */; };
 		84EB105F27F32AE6004AFACE /* FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB105E27F32AE6004AFACE /* FeedStoreSpecs.swift */; };
+		84F63B3A27F361B20076FF8A /* XCTestCase+FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F63B3927F361B20076FF8A /* XCTestCase+FeedStoreSpecs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		84EAA62C27D7BE6C006873CC /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
 		84EAA62E27D7BF13006873CC /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 		84EB105E27F32AE6004AFACE /* FeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpecs.swift; sourceTree = "<group>"; };
+		84F63B3927F361B20076FF8A /* XCTestCase+FeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedStoreSpecs.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				8483295327EB5781008F3B64 /* ValidateFeedCacheUseCaseTests.swift */,
 				84D8BBE027F07549009DCBF8 /* CodableFeedStoreTests.swift */,
 				84EB105E27F32AE6004AFACE /* FeedStoreSpecs.swift */,
+				84F63B3927F361B20076FF8A /* XCTestCase+FeedStoreSpecs.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F63B3A27F361B20076FF8A /* XCTestCase+FeedStoreSpecs.swift in Sources */,
 				84D8BBE127F07549009DCBF8 /* CodableFeedStoreTests.swift in Sources */,
 				84DE0CAA27B941F3002108C2 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
 				841E745327BFF8C60056CE08 /* URLSessionHTTPClientTests.swift in Sources */,
