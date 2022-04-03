@@ -167,8 +167,8 @@ class CodableFeedStoreTests: XCTestCase, FailableFeedStore {
         
         var deletionError: Error?
         
-        sut.deleteCachedFeed { receivedError in
-            deletionError = receivedError
+        sut.deleteCachedFeed { result in
+            if case let Result.failure(error) = result { deletionError = error }
             exp.fulfill()
         }
         
