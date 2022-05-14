@@ -14,10 +14,8 @@ struct FeedImageViewModel {
 }
 
 final class FeedViewController: UITableViewController {
-
+    
     private let feed = FeedImageViewModel.prototypeFeed
-    
-    
 
     // MARK: - Table view data source
 
