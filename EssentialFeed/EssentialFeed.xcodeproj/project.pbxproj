@@ -20,6 +20,7 @@
 		84899E0327C24A0900335D1A /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84899E0227C24A0900335D1A /* EssentialFeedAPIEndToEndTests.swift */; };
 		84899E0427C24A0900335D1A /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DE0C8A27B93F22002108C2 /* EssentialFeed.framework */; };
 		84899E0A27C26B4F00335D1A /* XCTTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84899DC927C1FF1D00335D1A /* XCTTestCase+MemoryLeakTracking.swift */; };
+		849F8CC8282FE1EA008533E7 /* FeedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F8CC7282FE1EA008533E7 /* FeedViewControllerTests.swift */; };
 		84B9064627EF50280023B164 /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9064527EF50280023B164 /* FeedCacheTestHelpers.swift */; };
 		84B9064827EF50EB0023B164 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9064727EF50EB0023B164 /* SharedTestHelpers.swift */; };
 		84BD90F427F1DC9C00F5E447 /* CodableFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD90F327F1DC9C00F5E447 /* CodableFeedStore.swift */; };
@@ -82,6 +83,7 @@
 		84899DCB27C228B200335D1A /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		84899E0027C24A0900335D1A /* EssentialFeedAPIEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedAPIEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84899E0227C24A0900335D1A /* EssentialFeedAPIEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedAPIEndToEndTests.swift; sourceTree = "<group>"; };
+		849F8CC7282FE1EA008533E7 /* FeedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerTests.swift; sourceTree = "<group>"; };
 		84B9064527EF50280023B164 /* FeedCacheTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCacheTestHelpers.swift; sourceTree = "<group>"; };
 		84B9064727EF50EB0023B164 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
 		84BD90F327F1DC9C00F5E447 /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
@@ -282,6 +284,7 @@
 		84E0AA44282F6D6F003FABCD /* EssentialFeediOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				849F8CC7282FE1EA008533E7 /* FeedViewControllerTests.swift */,
 			);
 			path = EssentialFeediOSTests;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 					};
 					84E0AA3F282F6D6F003FABCD = {
 						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
 					};
 				};
 			};
@@ -561,6 +565,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849F8CC8282FE1EA008533E7 /* FeedViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -896,15 +901,22 @@
 		84E0AA4C282F6D6F003FABCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4U2XF38FGM;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.EssentialFeediOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -913,11 +925,17 @@
 		84E0AA4D282F6D6F003FABCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4U2XF38FGM;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.EssentialFeediOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
