@@ -65,6 +65,7 @@
 		84F63B3E27F367A80076FF8A /* XCTestCase+FailableInsertFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F63B3D27F367A80076FF8A /* XCTestCase+FailableInsertFeedStoreSpecs.swift */; };
 		84F63B4027F368450076FF8A /* XCTestCase+FailableDeleteFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F63B3F27F368450076FF8A /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */; };
 		84F79AD12875F8E800B3093E /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F79AD02875F8E800B3093E /* FeedPresenterTests.swift */; };
+		84F79AD32876055800B3093E /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F79AD22876055800B3093E /* ErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +153,7 @@
 		84F63B3D27F367A80076FF8A /* XCTestCase+FailableInsertFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableInsertFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		84F63B3F27F368450076FF8A /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableDeleteFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		84F79AD02875F8E800B3093E /* FeedPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenterTests.swift; sourceTree = "<group>"; };
+		84F79AD22876055800B3093E /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +262,7 @@
 				84B40CD6286C734600F037D7 /* Feed.xcassets */,
 				84B40CD8286C807700F037D7 /* UITableView+Dequeueing.swift */,
 				84B40CDA286C820500F037D7 /* UIImageView+Animations.swift */,
+				84F79AD22876055800B3093E /* ErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -721,6 +724,7 @@
 				843452FB285EFF4400EC5AB0 /* UIView+Shimmering.swift in Sources */,
 				84B01F5B2851DC490016A196 /* FeedImageCell.swift in Sources */,
 				84E0AA3B282F6D6F003FABCD /* EssentialFeediOS.docc in Sources */,
+				84F79AD32876055800B3093E /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
