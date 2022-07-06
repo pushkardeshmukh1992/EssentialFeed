@@ -66,6 +66,7 @@
 		84F63B4027F368450076FF8A /* XCTestCase+FailableDeleteFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F63B3F27F368450076FF8A /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */; };
 		84F79AD12875F8E800B3093E /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F79AD02875F8E800B3093E /* FeedPresenterTests.swift */; };
 		84F79AD32876055800B3093E /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F79AD22876055800B3093E /* ErrorView.swift */; };
+		84F79AD52876081300B3093E /* FeedErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F79AD42876081300B3093E /* FeedErrorViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +155,7 @@
 		84F63B3F27F368450076FF8A /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableDeleteFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		84F79AD02875F8E800B3093E /* FeedPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenterTests.swift; sourceTree = "<group>"; };
 		84F79AD22876055800B3093E /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		84F79AD42876081300B3093E /* FeedErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedErrorViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +332,7 @@
 				84B40CD0286C70FD00F037D7 /* FeedViewModel.swift */,
 				84B40CD2286C712900F037D7 /* FeedLoadingViewModel.swift */,
 				84B40CE2286D877C00F037D7 /* Feed.strings */,
+				84F79AD42876081300B3093E /* FeedErrorViewModel.swift */,
 			);
 			path = "Feed Presentation";
 			sourceTree = "<group>";
@@ -725,6 +728,7 @@
 				84B01F5B2851DC490016A196 /* FeedImageCell.swift in Sources */,
 				84E0AA3B282F6D6F003FABCD /* EssentialFeediOS.docc in Sources */,
 				84F79AD32876055800B3093E /* ErrorView.swift in Sources */,
+				84F79AD52876081300B3093E /* FeedErrorViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
