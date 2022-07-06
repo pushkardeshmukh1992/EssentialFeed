@@ -7,3 +7,6 @@
 */
 
 "FEED_VIEW_TITLE" = "Tο Feed μου";
+"FEED_VIEW_CONNECTION_ERROR" = "Δεν ήταν δυνατή η σύνδεση στο διακομιστή";
+
+
