@@ -8,7 +8,6 @@
 import UIKit
 import EssentialFeed
 
-
 protocol FeedViewControllerDelegate {
     func didRequestFeedRefresh()
 }
