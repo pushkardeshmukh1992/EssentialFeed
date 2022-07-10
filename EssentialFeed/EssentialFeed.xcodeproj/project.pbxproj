@@ -363,9 +363,9 @@
 				84F79AE0287755AD00B3093E /* Feed Presentation */,
 				84EAA62B27D7BE57006873CC /* Feed Cache */,
 				84DE0C8D27B93F22002108C2 /* EssentialFeed.h */,
-				84DE0C8E27B93F22002108C2 /* EssentialFeed.docc */,
 				84DE0CA827B9407E002108C2 /* FeedFeature */,
 				84309C7827BA71A700BAE5E0 /* Feed API */,
+				84DE0C8E27B93F22002108C2 /* EssentialFeed.docc */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
