@@ -102,7 +102,6 @@ class FeedImageDataLoaderWithFallbackCompositeTests: XCTestCase {
         trackForMemoryLeaks(sut, file: file, line: line)
         
         return (sut, primaryLoader, fallbackLoader)
-        
     }
     
     private func expect(_ sut: FeedImageDataLoader, toCompleteWith expectedResult: FeedImageDataLoader.Result, when action: () -> Void, file: StaticString = #file, line: UInt = #line) {
@@ -126,10 +125,6 @@ class FeedImageDataLoaderWithFallbackCompositeTests: XCTestCase {
         action()
         
         wait(for: [exp], timeout: 1.0)
-    }
-    
-    private func anyNSError() -> NSError {
-        return NSError(domain: "any error", code: 0)
     }
     
     private class LoaderSpy: FeedImageDataLoader {
@@ -163,14 +158,6 @@ class FeedImageDataLoaderWithFallbackCompositeTests: XCTestCase {
         func complete(with data: Data, at index: Int = 0) {
             messages[index].completion(.success(data))
         }
-    }
-    
-    func anyData() -> Data {
-        return Data("any data".utf8)
-    }
-    
-    private func anyURL() -> URL {
-        return URL(string: "http://a-url.com")!
     }
 }
 
